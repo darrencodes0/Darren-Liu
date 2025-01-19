@@ -1,0 +1,100 @@
+body{
+  background: linear-gradient(to right, rgb(160, 51, 51), rgb(222, 222, 230));
+  color: rgb(255, 255, 255);
+} 
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  max-width: 1200px;
+  margin: 50px auto;
+  border-radius: 10px;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(196, 98, 98));
+  color: white;
+  border: 2px solid rgb(8, 7, 7);
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
+.project-title{
+  text-decoration: none;
+  color: white;
+  transition: text-shadow 1s ease;
+}
+
+.project-title:hover{
+  text-shadow: 
+    -1px -1px 0px rgb(0, 0, 0),  
+    1px -1px 0px black,  
+    -1px 1px 0px black,  
+    1px 1px 0px black,  
+    0px -2px 0px black,
+    0px 2px 0px black,
+    -2px 0px 0px black,
+    3.3px 0px 0px black; 
+}
+
+
+.slider-container {
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider-images {
+  display: flex;
+  border-radius: 10px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-images img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.slider-images:hover{
+  opacity: 0.95;
+}
+
+.slider-images img:hover{
+  opacity: 0.95;
+}
+
+.slider-button {
+  position: absolute;
+  background-color: rgba(56, 55, 55, 0.5);
+  border: white 1px solid;
+  color: white;
+  bottom: 1%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.slider-button.left {
+  left: 0;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.slider-button.right {
+  right: 0;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.slider-button:hover{
+  opacity: 0.7;
+}
+
+.slider-button:hover .slider-images img{
+  opacity: 0.7;
+}
+

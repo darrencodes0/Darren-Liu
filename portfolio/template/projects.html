@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <title>Darren's Notable Projects</title>
+    <link rel="stylesheet" href="..\static\styles.css">
+    <link rel="stylesheet" href="..\static\projects.css">
+    <script src="../static/projects.js"></script>
+  </head>
+  <body>
+    <header id="header-name"></header>
+      <nav>
+        <ul id="nav-bar">
+          <li class="nav-button"><a href="index.html">Profile</a></li>
+          <li class="nav-button"><a href="about_me.html">About Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div id="slider1" class="slider-container">
+          <a class="project-title" href="https://github.com/darrencodes0/WanderSync" target="_blank">
+            <h1 class="project-title">WanderSync</h1>
+            </a>
+          <div class="slider-images">
+            <img class="project-photo" id="project-photo1" src="../static/images/wandersync1.png" alt="">
+            <img class="project-photo" id="project-photo2" src="../static/images/wandersync2.png" alt="">
+            <img class="project-photo" id="project-photo3" src="../static/images/wandersync3.png" alt="">
+            <img class="project-photo" id="project-photo4" src="../static/images/wandersync4.png" alt="">
+          </div>
+          <button class="slider-button left" onclick="slide(-1, 'slider1')">&#10094;</button>
+          <button class="slider-button right" onclick="slide(1, 'slider1')">&#10095;</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div id="slider2" class="slider-container">
+          <a class="project-title" href="https://github.com/darrencodes0/NYC-Seasonal-Explorer" target="_blank">
+            <h1>NYC Seasonal Explorer</h1>
+          </a>
+          <div class="slider-images">
+            <img class="project-photo" id="project-photo1" src="../static/images/nycseason1.png" alt="">
+            <img class="project-photo" id="project-photo2" src="../static/images/nycseason2.png" alt="">
+            <img class="project-photo" id="project-photo3" src="../static/images/nycseason3.png" alt="">
+            <img class="project-photo" id="project-photo4" src="../static/images/nycseason4.png" alt="">
+          </div>
+            <button class="slider-button left" onclick="slide(-1, 'slider2')">&#10094;</button>
+            <button class="slider-button right" onclick="slide(1, 'slider2')">&#10095;</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div id="slider3" class="slider-container">
+          <a class="project-title" href="https://github.com/darrencodes0/MyBank" target="_blank">
+          <h1>MyBank</h1>
+          </a>
+          <div class="slider-images">
+            <img class="project-photo" id="project-photo1" src="../static/images/bank1.png" alt="">
+            <img class="project-photo" id="project-photo2" src="../static/images/bank2.png" alt="">
+            <img class="project-photo" id="project-photo3" src="../static/images/bank3.png" alt="">
+            <img class="project-photo" id="project-photo4" src="../static/images/bank4.png" alt="">
+          </div>
+            <button class="slider-button left" onclick="slide(-1, 'slider3')">&#10094;</button>
+            <button class="slider-button right" onclick="slide(1, 'slider3')">&#10095;</button>
+        </div>
+      </div>
+
+
+      
+
+  
+
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+</html>
