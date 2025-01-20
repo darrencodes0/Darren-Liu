@@ -3,17 +3,13 @@ body{
   color: rgb(255, 255, 255);
 } 
 
-main{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 #project-header{
+  display: fixed;
   text-align: center;
   border-radius: 20px;
-  background: linear-gradient(to right, rgb(0, 0, 0), rgb(83, 62, 62));
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(92, 46, 46));
   padding: 20px;
+  border-bottom: 0.5px solid white;
   font-size: 50px;
     text-shadow: 
     -1px -1px 0px rgb(0, 0, 0),  
@@ -28,17 +24,19 @@ main{
 
 .container {
   width: 80%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 50px auto;
   border-radius: 10px;
-  background: linear-gradient(to right, rgb(0, 0, 0), rgb(196, 98, 98));
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(58, 27, 27));
   color: white;
-  border: 2px solid rgb(8, 7, 7);
+  border: 2px solid rgb(247, 247, 247);
   padding: 20px;
   padding-bottom: 30px;
+  animation: fadeIn 2s ease-in-out;
 }
 
 .project-title{
+  display: fixed;
   text-decoration: none;
   color: white;
   transition: text-shadow 1s ease;
@@ -66,6 +64,7 @@ main{
   margin: 0 auto;
   overflow: hidden;
 }
+
 
 .slider-images {
   display: flex;
@@ -120,4 +119,13 @@ main{
   height: 35px;
   padding-bottom: 10px;
   border-bottom: 1px white solid;
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
