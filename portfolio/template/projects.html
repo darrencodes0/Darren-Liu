@@ -19,61 +19,83 @@
     <script src="../static/projects.js"></script>
   </head>
   <body>
-    <header id="header-name"></header>
       <nav>
         <ul id="nav-bar">
-          <li class="nav-button"><a href="../../index.html">Profile</a></li>
-          <li class="nav-button"><a href="about_me.html">About Me</a></li>
+          <p id="name-header">Darren Liu</p>
+          <li class="nav-button"><a href="../../index.html">Home<img class="nav-button-image" src="../static/images/home-icon.png" alt=""></a></li>
+          <li class="nav-button"><a href="about_me.html">About Me<img class="nav-button-image" src="../static/images/buddy-icon.jpg" alt=""></a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <div class="container">
-        <div id="slider1" class="slider-container">
+      <div>
+        <h1 id="project-header">Projects</h1>
+        <div class="container">
+          <div id="slider1" class="slider-container">
           <a class="project-title" href="https://github.com/darrencodes0/WanderSync" target="_blank">
-            <h1 class="project-title">WanderSync</h1>
+            <h1>WanderSync</h1>
+              </a>
+            <div class="slider-images">
+              <img class="project-photo" id="project-photo1" src="../static/images/wandersync1.png" alt="">
+              <img class="project-photo" id="project-photo2" src="../static/images/wandersync2.png" alt="">
+              <img class="project-photo" id="project-photo3" src="../static/images/wandersync3.png" alt="">
+              <img class="project-photo" id="project-photo4" src="../static/images/wandersync4.png" alt="">
+            </div>
+            <button class="slider-button left" onclick="slide(-1, 'slider1')">&#10094;</button>
+            <button class="slider-button right" onclick="slide(1, 'slider1')">&#10095;</button>
+          </div>
+          <div class="technologies-used-section">
+            <img class="programming-language-icon" src="../static/images/icons/python-logo.png" alt="">
+            <img class="programming-language-icon" src="../static/images/icons/javascript-icon.png" alt="">
+            <img class="programming-language-icon" src="../static/images/icons/html-icon.png" alt="">
+            <img class="programming-language-icon" src="../static/images/icons/css-icon.png" alt="">
+          </div>
+        </div>
+
+        <div class="container">
+          <div id="slider2" class="slider-container">
+            <a class="project-title" href="https://github.com/darrencodes0/NYC-Seasonal-Explorer" target="_blank">
+              <h1>NYC Seasonal Explorer</h1>
             </a>
-          <div class="slider-images">
-            <img class="project-photo" id="project-photo1" src="../static/images/wandersync1.png" alt="">
-            <img class="project-photo" id="project-photo2" src="../static/images/wandersync2.png" alt="">
-            <img class="project-photo" id="project-photo3" src="../static/images/wandersync3.png" alt="">
-            <img class="project-photo" id="project-photo4" src="../static/images/wandersync4.png" alt="">
+            <div class="slider-images">
+              <img class="project-photo" id="project-photo1" src="../static/images/nycseason1.png" alt="">
+              <img class="project-photo" id="project-photo2" src="../static/images/nycseason2.png" alt="">
+              <img class="project-photo" id="project-photo3" src="../static/images/nycseason3.png" alt="">
+              <img class="project-photo" id="project-photo4" src="../static/images/nycseason4.png" alt="">
+            </div>
+              <button class="slider-button left" onclick="slide(-1, 'slider2')">&#10094;</button>
+              <button class="slider-button right" onclick="slide(1, 'slider2')">&#10095;</button>
           </div>
-          <button class="slider-button left" onclick="slide(-1, 'slider1')">&#10094;</button>
-          <button class="slider-button right" onclick="slide(1, 'slider1')">&#10095;</button>
+          <div class="technologies-used-section">
+            <img class="programming-language-icon" src="../static/images/icons/python-logo.png" alt="">
+            <img class="programming-language-icon" src="../static/images/icons/javascript-icon.png" alt="">
+            <img class="programming-language-icon" src="../static/images/icons/html-icon.png" alt="">
+            <img class="programming-language-icon" src="../static/images/icons/css-icon.png" alt="">
+          </div>
         </div>
-      </div>
 
-      <div class="container">
-        <div id="slider2" class="slider-container">
-          <a class="project-title" href="https://github.com/darrencodes0/NYC-Seasonal-Explorer" target="_blank">
-            <h1>NYC Seasonal Explorer</h1>
-          </a>
-          <div class="slider-images">
-            <img class="project-photo" id="project-photo1" src="../static/images/nycseason1.png" alt="">
-            <img class="project-photo" id="project-photo2" src="../static/images/nycseason2.png" alt="">
-            <img class="project-photo" id="project-photo3" src="../static/images/nycseason3.png" alt="">
-            <img class="project-photo" id="project-photo4" src="../static/images/nycseason4.png" alt="">
+        <div class="container">
+          <div id="slider3" class="slider-container">
+            <a class="project-title" href="https://github.com/darrencodes0/MyBank" target="_blank">
+            <h1>MyBank</h1>
+            </a>
+            <div class="slider-images">
+              <img class="project-photo" id="project-photo1" src="../static/images/bank1.png" alt="">
+              <img class="project-photo" id="project-photo2" src="../static/images/bank2.png" alt="">
+              <img class="project-photo" id="project-photo3" src="../static/images/bank3.png" alt="">
+              <img class="project-photo" id="project-photo4" src="../static/images/bank4.png" alt="">
+            </div>
+              <button class="slider-button left" onclick="slide(-1, 'slider3')">&#10094;</button>
+              <button class="slider-button right" onclick="slide(1, 'slider3')">&#10095;</button>
           </div>
-            <button class="slider-button left" onclick="slide(-1, 'slider2')">&#10094;</button>
-            <button class="slider-button right" onclick="slide(1, 'slider2')">&#10095;</button>
+          <div class="technologies-used-section">
+            <img class="programming-language-icon" src="../static/images/icons/python-logo.png" alt="">
+            <img class="programming-language-icon" src="../static/images/icons/javascript-icon.png" alt="">
+            <img class="programming-language-icon" src="../static/images/icons/html-icon.png" alt="">
+            <img class="programming-language-icon" src="../static/images/icons/css-icon.png" alt="">
+          </div>
         </div>
-      </div>
 
-      <div class="container">
-        <div id="slider3" class="slider-container">
-          <a class="project-title" href="https://github.com/darrencodes0/MyBank" target="_blank">
-          <h1>MyBank</h1>
-          </a>
-          <div class="slider-images">
-            <img class="project-photo" id="project-photo1" src="../static/images/bank1.png" alt="">
-            <img class="project-photo" id="project-photo2" src="../static/images/bank2.png" alt="">
-            <img class="project-photo" id="project-photo3" src="../static/images/bank3.png" alt="">
-            <img class="project-photo" id="project-photo4" src="../static/images/bank4.png" alt="">
-          </div>
-            <button class="slider-button left" onclick="slide(-1, 'slider3')">&#10094;</button>
-            <button class="slider-button right" onclick="slide(1, 'slider3')">&#10095;</button>
-        </div>
       </div>
 
 
