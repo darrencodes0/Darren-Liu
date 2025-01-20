@@ -117,7 +117,9 @@ body{
   margin-right: 10px;
   width: 35px;
   height: 35px;
+  padding-top: 10px;
   padding-bottom: 10px;
+  border-top: 1px white solid;
   border-bottom: 1px white solid;
 }
 
