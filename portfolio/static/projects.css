@@ -6,7 +6,7 @@ body{
 #project-header{
   text-align: center;
   font-size: 50px;
-  text-shadow: 
+    text-shadow: 
     -1px -1px 0px rgb(0, 0, 0),  
     2px -1px 0px black,  
     -1px 1px 0px black,  
@@ -18,10 +18,6 @@ body{
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   width: 80%;
   max-width: 1200px;
   margin: 50px auto;
@@ -36,7 +32,7 @@ body{
 .project-title{
   text-decoration: none;
   color: white;
-  transition: text-shadow 1s ease, font-size 1s ease;
+  transition: text-shadow 1s ease;
   text-shadow: 
     -1px -1px 0px rgb(0, 0, 0),  
     1px -1px 0px black,  
@@ -48,8 +44,8 @@ body{
     3.3px 0px 0px black; 
 }
 
-.project-title:hover{
-  font-size: 16.5px;
+.project-title h1:hover{
+  transform: scale(1.05);
 }
 
 
@@ -109,6 +105,7 @@ body{
   margin-top: 30px;
 }
 .programming-language-icon{
+  margin-right: 10px;
   width: 35px;
   height: auto;
 }

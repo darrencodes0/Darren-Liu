@@ -7,16 +7,14 @@ body{
   width: 100%;
   border-radius: 10px;
   text-align: center;
-  border: 1px dashed black;
+  border: 1px solid rgb(0, 0, 0);
   background: linear-gradient(to right, rgb(10, 10, 10), rgb(97, 69, 69));
-  transition: font-size 5s ease;
   animation: fadeIn 3s ease-in-out;
 }
 
-#paragraph:hover{
-  font-size: 17px;
+#paragraph p:hover{
+  transform: scale(1.01);
 }
-
 
 #social-media-row {
   display: flex;
@@ -39,7 +37,7 @@ body{
   border-radius: 50%;
   background-color: black;
   border: rgb(15, 3, 3) 3px dashed;
-  transition: max-height 1s ease, opacity 1s ease;
+  transition: opacity 1s ease;
   animation: fadeIn 5s ease-in-out;
 }
 
@@ -54,11 +52,11 @@ body{
   background: linear-gradient(to right, rgb(255, 255, 255), rgb(179, 98, 98));
   border: rgb(15, 3, 3) 3px solid;
   animation: fadeIn 6s ease-in-out;
-  transition: height 1s ease, opacity 1s ease;
+  transition: opacity 1s ease;
 }
 
 .social-media-icon:hover{
-  height: 52px;
+  transform: scale(1.1);
   opacity: 0.7;
 }
 
@@ -69,10 +67,6 @@ body{
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   border-radius: 10px;
   width: 40%;
   margin: 50px auto;
