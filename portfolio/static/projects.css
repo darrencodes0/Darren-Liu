@@ -3,8 +3,17 @@ body{
   color: rgb(255, 255, 255);
 } 
 
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #project-header{
   text-align: center;
+  border-radius: 20px;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(83, 62, 62));
+  padding: 20px;
   font-size: 50px;
     text-shadow: 
     -1px -1px 0px rgb(0, 0, 0),  
@@ -47,7 +56,6 @@ body{
 .project-title h1:hover{
   transform: scale(1.05);
 }
-
 
 .slider-container {
   position: relative;
@@ -103,9 +111,13 @@ body{
 
 .technologies-used-section{
   margin-top: 30px;
+  padding-bottom: 10px;
 }
+
 .programming-language-icon{
   margin-right: 10px;
   width: 35px;
-  height: auto;
+  height: 35px;
+  padding-bottom: 10px;
+  border-bottom: 1px white solid;
 }

@@ -15,15 +15,17 @@ body{
     0px 2px 0px black,
     -2px 0px 0px black,
     3.3px 0px 0px black; 
+  transition: font-size 1s ease;
   animation: slideIn 3.5s ease-in-out forwards;
 }
 
 #welcome:hover{
+  font-size: 85px;
   color: rgb(150, 75, 75);
   opacity: 0.5;
 }
 
-@keyframes slideIn {
+@keyframes slideIn{
   0% {
     opacity: 0;
   }

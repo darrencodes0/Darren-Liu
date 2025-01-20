@@ -58,4 +58,22 @@ body{
   transition: width 0.3s ease;
 }
 
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  border-top: rgb(112, 45, 45) 1px solid;
+  background-color: black;
+}
+
+footer p{
+  font-size: 14px;
+}
+
+
+
 
