@@ -29,7 +29,7 @@ body{
   border-radius: 10px;
   background: linear-gradient(to right, rgb(0, 0, 0), rgb(58, 27, 27));
   color: white;
-  border: 2px solid rgb(247, 247, 247);
+  border: 1px solid rgb(247, 247, 247);
   padding: 20px;
   padding-bottom: 30px;
   animation: fadeIn 2s ease-in-out;
