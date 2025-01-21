@@ -23,15 +23,16 @@ body{
 }
 
 .container {
+  display: flex;
   width: 80%;
   max-width: 1000px;
   margin: 50px auto;
   border-radius: 10px;
-  background: linear-gradient(to right, rgb(0, 0, 0), rgb(58, 27, 27));
+  padding-bottom: 1000px;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(109, 39, 39));
   color: white;
   border: 1px solid rgb(247, 247, 247);
   padding: 20px;
-  padding-bottom: 30px;
   animation: fadeIn 2s ease-in-out;
 }
 
@@ -55,16 +56,26 @@ body{
   transform: scale(1.05);
 }
 
+.project-video{
+  width: 100%;
+}
+
+.video-section{
+  position: relative;;
+  text-align: center;
+  border-top: 1px white solid;
+}
+
 .slider-container {
   position: relative;
   text-align: center;
+  flex: 6;
   border-radius: 10px;
   width: 90%;
   max-width: 1000px;
   margin: 0 auto;
   overflow: hidden;
 }
-
 
 .slider-images {
   display: flex;
@@ -109,6 +120,7 @@ body{
 }
 
 .technologies-used-section{
+  flex: 1;
   margin-top: 30px;
   padding-bottom: 10px;
 }
