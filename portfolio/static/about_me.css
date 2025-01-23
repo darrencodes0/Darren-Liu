@@ -30,6 +30,7 @@ body{
   width: 100%;
   gap: 10px;
   text-align: center;
+  animation: fadeIn 4s ease-in-out;
 }
 
 #my_picture {

@@ -9,7 +9,7 @@ function slide(direction, sliderId) {
   const imagesContainer = document.querySelector(`#${sliderId} .slider-images`);
   const images = document.querySelectorAll(`#${sliderId} .slider-images img`);
   const totalImages = images.length;
-  
+
   slider.currentIndex += direction;
 
   if (slider.currentIndex < 0) {

@@ -23,6 +23,10 @@ body{
   font-weight: bold;
 }
 
+#name-header:hover{
+  transform: scale(1.05);
+}
+
 #nav-bar{
   margin: 0;
   list-style-type: none;
