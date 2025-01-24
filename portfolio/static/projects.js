@@ -39,11 +39,11 @@ function toggle_mode(){
   const containers = document.getElementsByClassName("container");
   if(dark == true){
     document.body.style.backgroundColor = "white";
-    document.getElementById("project-header").style.background = "black";
+    document.getElementById("project-header").style.background = "linear-gradient(to right, rgb(0, 0, 0), white)";
     document.getElementById("background-mode-img").src = "../static/images/icons/moon-icon.png";
     document.getElementById("dark-light-button").style.background = "linear-gradient(to left, white, black)";
     for(let i = 0; i < containers.length; i++){
-      containers[i].style.background = "black";
+      containers[i].style.background =  "linear-gradient(to right, rgb(0, 0, 0), grey)";
     }
   } else{
      document.body.style.backgroundColor = "black";
